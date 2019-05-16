@@ -6,10 +6,16 @@ public class Product {
     int id;
     String name;
     float price;
-    
+    int version;
     Category category;
     
-    Set<User> users;
+    public int getVersion() {
+		return version;
+	}
+	public void setVersion(int version) {
+		this.version = version;
+	}
+	Set<User> users;
     
     public Set<User> getUsers() {
 		return users;
