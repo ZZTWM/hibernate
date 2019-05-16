@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="E:/project/hibernate/lib/mysql-connector-java-5.0.8-bin.jar"/>
 	<classpathentry kind="lib" path="E:/project/hibernate/lib/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="E:/project/hibernate/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/project/hibernate/lib/c3p0-0.9.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
