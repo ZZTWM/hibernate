@@ -28,7 +28,7 @@ public class TestHibernate10 {
 		c.setName("c1");
 		s.save(c);
 		
-		Product p = (Product) s.get(Product.class, 8);
+		Product p = (Product) s.get(Product.class, 10);
 		p.setCategory(c);
 		s.update(p);
 		
